@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    /* border: solid; */
+}
+.nBrand .navbar-nav{
+    border: 2px solid rgb(102, 152, 172);
+    display: flex;
+    height: 2em;
+    background-color: rgb(42, 99, 99);
+    align-content: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.navlg{
+    display: flex;
+}
+.navlg .nav-ite a{
+    color: rgb(255, 255, 255)!important;
+    font-size:1.1em;
+}
+.menuBox{
+    position: relative;;
+    width: 100%;
+    max-height: 95%;
+    overflow-y: scroll;
+}
+
+.menuBox .navItem{
+    width: 100%;
+}
+.CusMenu .logout{
+    border: 1px solid rgb(16, 87, 87);
+    cursor: pointer;
+    width:fit-content;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(28, 133, 133);
+}
+.CusMenu .p_logout{
+    display: flex;
+    justify-content: center;
+}
+.CusMenu .navbar-nav{
+    height: 85%;
+}
+
+.CusMenu .card-header{
+    border-radius: 0px;
+    background-color: rgb(53, 156, 187);
+}
+.CusMenu .subMenu{
+    /* border-bottom: 1px solid rgb(43, 126, 151); */
+    padding: 0.6em;
+    list-style-type: none;
+}
+.CusMenu .card-body{
+    padding: 0;
+    background-color: rgb(60, 174, 209);
+    border-bottom: 1px solid rgb(43, 126, 151);
+}
+.CusMenu .subMenuUL{
+    position: relative;
+    left: -1em;
+}
+.dSess{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.1em;
+    padding-left: 0.8em;
+    border-radius: 5px;
+    background-color: rgba(27, 116, 116, 0.6);
+}
+.dSess .p_logout{
+    border: 1px solid rgb(16, 87, 87);
+    cursor: pointer;
+    width:fit-content;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(28, 133, 133);
+}
+.dSess .dlogoutSess{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    padding-right: 2em;
+}
+
+.CusMenu .subMenuUL a{
+    color: black;
+}
+.navbar-nav.mNav{
+    display: none;
+    position:fixed;
+    background-color: rgb(53, 156, 187);
+    width: 100%;
+    z-index: 1;
+    top: 2.5em;
+    left: 0;
+}
+.navbar{
+    background-color: rgb(32, 117, 143,0.4);
+    height: 3em;
+    display: flex;
+    align-content: center;
+}
+@media screen and (max-width:768px){
+    .navbar{
+        background-color: rgb(53, 156, 187);
+        height: 2.5em;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    .navbar-nav{
+        top: 2.5em;
+    }
+}
+@media screen and (max-width:1000px){
+    .navlg{
+        position: relative;
+        top: -0.45em;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+        justify-content:center;
+    }
+    .navlg .nav-ite a:nth-child(0) {
+        padding-right:0.2em;
+    }
+    .navlg .nav-ite a:nth-child(1) {
+        padding-left:0.2em;
+    }
+}
+.drop{
+    background-color: rgb(32, 117, 143,0.4);
+    color: black;
+}
+.drop:focus{
+    background-color: rgba(27, 92, 112, 0.6)!important;
+}
+.stick {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.sld {
+        margin-top: -15vmin;
+    }
+.ss {
+    position: relative;
+    z-index: -1;
+    padding: 0px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 40em;
+}
+.Msld{
+    height: 100%
+}
+.Msld, .back, img{
+    width: 100%;
+    height: 100%;
+}
+.Msld .back{
+    background-image: linear-gradient(to bottom, rgb(186, 233, 240), rgb(255, 242, 184));
+}
+.Msld .box1{
+    height: 100%;
+    padding: 5px;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    /* background-image: linear-gradient(to right, rgb(143, 218, 228), rgb(224, 223, 157)); */
+}
+.Msld .box2{
+    height: 100%;
+    padding: 5px;
+    padding-bottom: 5%;
+    /* background-image: linear-gradient(to right, rgb(143, 218, 228), rgb(224, 223, 157)); */
+}
+.p_msgCongrates{
+    position: absolute;
+    top: 40vmin;
+    width: 100%;
+    
+}
+.msgCongrates{
+    display: flex;
+    justify-content: center;
+}
+.congrates{
+    color: aliceblue;
+    background-image: linear-gradient(to bottom, rgb(91, 168, 219), rgb(53, 110, 184));
+    border-radius: 0.4em;
+}
+@media screen and (max-width:768px){
+    .congrates{
+        max-width: 60vmin;
+    }
+}
+.login {
+    position: absolute;
+    top: 50vmin;
+    left: 20vmin;
+    z-index: 0;
+    display: inline-block;
+}
+
+.login .row .col .box {
+    background-color: rgb(52, 58, 64);
+    border-radius: 100px;
+    width: 6rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.login .row .col .box a {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.login .row .col .box:hover {
+    background-color: rgb(65, 74, 83);
+    cursor: pointer;
+}
+.mLog{
+    position: absolute;
+    top:40%;
+}
+.mLogin .log, .sign{
+    display: flex;
+    justify-content: center;
+    padding: 0.2em;
+}
+.mLogin a{
+    color: white;
+    font-size: 1.2em;
+}
+.mLogin .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 0.5em;
+    border-radius: 20px;
+    background-color: rgb(52, 58, 64);
+}
+
+.review{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.rect{
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+.CRev .card .card-body{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+    min-height: 15em;
+    max-height: 15em;
+}
+.CRev .card .card-body p{
+    text-align: center;
+}
+.face{
+    width: 4em;
+}
+.partner .header{
+    text-align: center;
+    color: rgba(14, 49, 5, 0.808);
+    letter-spacing: 1em;
+}
+.partner-r{
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid rgb(56, 190, 128); */
+    height: 40vmin;
+    flex-wrap:wrap;
+}
+
+.partner-r .col-3{
+   height: 100%;
+}
+
+.partner .logo{
+    border-radius: 2rem;
+    /* border: 5px solid rgb(211, 18, 201); */
+    background-color: rgb(180, 221, 255);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    height: 100%;
+    align-items: center;
+}
+
+.partner-r img{
+    height: 90%;
+    width: 90%;
+}
+
+.mPartner{
+    display: flex;
+}
+.mPartner .rect{
+    display: flex;
+    border-radius: 1.5em;
+    background-color: rgb(180, 221, 255);
+    border: 1px solid rgb(135, 174, 206);
+    margin-left: 0.15em;
+    margin-right: 0.15em;
+    width: 20vh;
+    height: 20vh;
+}
+.footer{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: black;
+}
+.footer .list{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
+}
+.footer .list a{
+    color: aliceblue;
+}
+.footer .list div{
+    display: flex;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: center;
+}
+
+.footer .about{
+    margin-top: 2em;
+    border: 1px solid rgb(210, 230, 210);
+}
+.footer .about a{
+    color: aliceblue;
+}
+.CCou{
+    top:40vh;
+    position:absolute;
+    display: flex;
+    width:100vw;
+    justify-content: center;
+}
+.course{
+    display: flex;
+    justify-content: center;
+}
+.course .card-body{
+    display:flex;
+    align-items: center;
+    flex-direction:column ;
+}
+.course .card{
+    background-color: rgb(113, 202, 230);
+    border-radius:20px;
+}
+@media screen and (max-width:668px){
+    .course{
+        flex-direction: column;
+    }
+    .CCou{
+        top:20vh;
+    }
+}
