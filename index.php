@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./style.css?version=0.0014">
+    <link rel="stylesheet" href="./style.css?version=0.0015">
 
     <title>RoboThon</title>
     <script src="https://kit.fontawesome.com/c9b1a782b4.js" crossorigin="anonymous"></script>
