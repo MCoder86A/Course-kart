@@ -352,6 +352,11 @@
 .footer .about{
     margin-top: 2em;
     border: 1px solid rgb(210, 230, 210);
+    text-align: center;
+}
+.footer .list .item{
+    border: 1px solid rgb(210, 230, 210, 0);
+    border-radius: 0.1em;
 }
 .footer .about a{
     color: aliceblue;
