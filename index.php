@@ -515,18 +515,20 @@
     <footer>
         <div class="footer" id="footer">
             <div class="list">
-                <div><a href="#footer">Contact us</a></div>
-                <div><a href="#footer">help</a></div>
-                <div><a href="#footer">Product</a></div>
-                <div><a href="#footer">Business</a></div>
-                <div><a href="#footer">Our Journey</a></div>
+                <div class="item"><a href="#footer">Contact us</a></div>
+                <div class="item"><a href="#footer">help</a></div>
+                <div class="item"><a href="#footer">Product</a></div>
+                <div class="item"><a href="#footer">Business</a></div>
+                <div class="item"><a href="#footer">Our Journey</a></div>
             </div>
             <div class="about px-2 py-1">
                 <a href="#footer">About us</a>
             </div>
         </div>
     </footer>
+
+
+    <script src="./jslib/anime-master/anime.js"></script>
+    <script type="module" src="./asset/myanim.js"></script>
 </body>
-
-
 </html>
