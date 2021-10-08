@@ -5,14 +5,25 @@
 $(function(){
     animateAboutUs();
     animatefooterMenu();
-    
-})
+    animateCorona();
+});
 
+function animateCorona() {
+    let el = document.querySelector(".sld .wall .svg svg");
+    console.log(el);
+    el.addEventListener('mouseover',()=>{console.log("sd");
+        anime({
+            targets: el,
+            rotate: '+=160',
+            duration: 1000,
+            easing : 'easeOutSine'
+        })
+    });
+}
 
 function animatefooterMenu() {
     let el = document.querySelector(".footer .list");
     let list = el.getElementsByClassName("item");
-    console.log(list[0]);
     for(let i=0; i<list.length; i++){
         list[i].addEventListener('mouseover',()=>{
             anime({
@@ -41,7 +52,7 @@ function animatefooterMenu() {
             })
         });
     }
-}
+};
 
 function animateAboutUs() {
     let el = document.querySelector(".footer .about");
@@ -91,4 +102,4 @@ function animateAboutUs() {
             easing: 'linear',
         });
     });
-}
+};

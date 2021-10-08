@@ -1,3 +1,12 @@
+/* color scheme:*/
+.pseudoclas{
+    color : #991828;
+    color : #E61931;
+    color : #0DA3E6;
+    color : #999318;
+    color : #E6E05C;
+}
+
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -47,7 +56,8 @@
 
 .CusMenu .card-header{
     border-radius: 0px;
-    background-color: rgb(53, 156, 187);
+    background-color: #0DA3E6;
+    border: 0px;
 }
 .CusMenu .subMenu{
     /* border-bottom: 1px solid rgb(43, 126, 151); */
@@ -56,12 +66,17 @@
 }
 .CusMenu .card-body{
     padding: 0;
-    background-color: rgb(60, 174, 209);
-    border-bottom: 1px solid rgb(43, 126, 151);
+    background-color: #0DA3E6;
+    border-bottom: 1px solid #0DA3E6;
 }
 .CusMenu .subMenuUL{
     position: relative;
+    left: 0em;
+}
+.CusMenu .subMenuUL .subMenu{
+    position: relative;
     left: 1em;
+    width: 80%;
 }
 .dSess{
     position: relative;
@@ -93,21 +108,22 @@
 .navbar-nav.mNav{
     display: none;
     position:fixed;
-    background-color: rgb(53, 156, 187);
+    background-color: #0DA3E6;
     width: 100%;
     z-index: 1;
     top: 2.5em;
     left: 0;
 }
 .navbar{
-    background-color: rgb(32, 117, 143,0.4);
+    background-color: #0DA3E655;
     height: 3em;
     display: flex;
     align-content: center;
+    z-index: 1;
 }
 @media screen and (max-width:768px){
     .navbar{
-        background-color: rgb(53, 156, 187);
+        background-color: #0DA3E6;
         height: 2.5em;
         position: sticky;
         top: 0;
@@ -133,11 +149,11 @@
     }
 }
 .drop{
-    background-color: rgb(32, 117, 143,0.4);
-    color: black;
+    background-color: #0DA3E655;
+    color: antiquewhite;
 }
 .drop:focus{
-    background-color: rgba(27, 92, 112, 0.6)!important;
+    background-color: #0DA3E666!important;
 }
 .stick {
     position: sticky;
@@ -149,8 +165,28 @@
     }
 .ss {
     position: relative;
-    z-index: -1;
+    /* z-index: -1; alert: causes addEventListener error */
     padding: 0px;
+}
+.ss .wall .svgcontainer{
+    position: relative;
+    width: 30vmax;
+    height: 50vmin;
+    top: 30vmin;
+    left: 50vmax;
+}
+
+.ss .wall .svg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; x*/
+}
+
+.sld .ss{
+    height: 100vmin;
+    
+    background-color: #0DA3E6;
 }
 
 .carousel-inner img {
@@ -160,26 +196,12 @@
 .Msld{
     height: 100%
 }
-.Msld, .back, img{
-    width: 100%;
-    height: 100%;
-}
+
 .Msld .back{
-    background-image: linear-gradient(to bottom, rgb(186, 233, 240), rgb(255, 242, 184));
+    height: 100vmax;
+    background-image: linear-gradient(to bottom, #0DA3E6, #E61931);
 }
-.Msld .box1{
-    height: 100%;
-    padding: 5px;
-    padding-top: 0%;
-    padding-bottom: 2%;
-    /* background-image: linear-gradient(to right, rgb(143, 218, 228), rgb(224, 223, 157)); */
-}
-.Msld .box2{
-    height: 100%;
-    padding: 5px;
-    padding-bottom: 5%;
-    /* background-image: linear-gradient(to right, rgb(143, 218, 228), rgb(224, 223, 157)); */
-}
+
 .p_msgCongrates{
     position: absolute;
     top: 40vmin;
@@ -296,7 +318,7 @@
 .partner .logo{
     border-radius: 2rem;
     /* border: 5px solid rgb(211, 18, 201); */
-    background-color: rgb(180, 221, 255);
+    background-color: #0DA3E6;
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -315,8 +337,8 @@
 .mPartner .rect{
     display: flex;
     border-radius: 1.5em;
-    background-color: rgb(180, 221, 255);
-    border: 1px solid rgb(135, 174, 206);
+    background-color: #0DA3E6;
+    border: 1px solid #999318;
     margin-left: 0.15em;
     margin-right: 0.15em;
     width: 20vh;
@@ -328,7 +350,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     background-color: black;
 }
 .footer .list{
@@ -353,6 +375,7 @@
     margin-top: 2em;
     border: 1px solid rgb(210, 230, 210);
     text-align: center;
+    width: 6em;
 }
 .footer .list .item{
     border: 1px solid rgb(210, 230, 210, 0);
