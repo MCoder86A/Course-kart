@@ -2,3 +2,5 @@
 vendor/
 *.png
 *.jpg
+*.svg
+jslib/

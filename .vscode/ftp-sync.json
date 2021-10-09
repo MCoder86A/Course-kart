@@ -17,6 +17,10 @@
         "\\.vscode",
         "\\.git",
         "\\.DS_Store",
+<<<<<<< HEAD
+=======
+        "\\asset/image/",
+>>>>>>> feature
         "stripe",
         "ngrok",
         "db.php",
