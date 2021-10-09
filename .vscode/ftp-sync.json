@@ -1,0 +1,35 @@
+{
+    "remotePath": "./htdocs",
+    "host": "ftpuploadED.net",
+    "username": "epiz_29558196",
+    "password": "LAQllz0EWZe",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "\\asset/image/",
+        "stripe",
+        "ngrok",
+        "db.php",
+        "a.php"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ".html",
+            ".css",
+            ".php",
+            ".js"
+        ],
+        "path": ""
+    }
+}
