@@ -16,11 +16,8 @@
     "ignore": [
         "\\.vscode",
         "\\.git",
-        "\\.DS_Store",
-<<<<<<< HEAD
-=======
+        "\\.DS_Store",     
         "\\asset/image/",
->>>>>>> feature
         "stripe",
         "ngrok",
         "db.php",
