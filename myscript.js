@@ -20,15 +20,15 @@ $(function(){
     $(".menuIcon.cross").hide();
 
     $(".menuIcon.bars").click(()=>{
-        $(".menuIcon.cross").show();
-        $(".menuIcon.bars").hide();
-        $(".navbar-nav").show();
+        $(".menuIcon.cross").fadeIn(400);
+        $(".menuIcon.bars").hide(400);
+        $(".CusMenu .navbar-nav").fadeIn(400);
 
     });
 
     $(".menuIcon.cross").click(()=>{
-        $(".menuIcon.cross").hide();
-        $(".menuIcon.bars").show();
-        $(".navbar-nav").hide();
+        $(".menuIcon.cross").hide(400);
+        $(".menuIcon.bars").show(400);
+        $(".CusMenu .navbar-nav").fadeOut(400);
     });
 });

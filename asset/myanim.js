@@ -10,8 +10,7 @@ $(function(){
 
 function animateCorona() {
     let el = document.querySelector(".sld .wall .svg svg");
-    console.log(el);
-    el.addEventListener('mouseover',()=>{console.log("sd");
+    el.addEventListener('mouseover',()=>{
         anime({
             targets: el,
             rotate: '+=160',

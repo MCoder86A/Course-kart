@@ -115,7 +115,7 @@
     left: 0;
 }
 .navbar{
-    background-color: #0DA3E655;
+    background-color: #0DA3E6cc;
     height: 3em;
     display: flex;
     align-content: center;
@@ -149,7 +149,7 @@
     }
 }
 .drop{
-    background-color: #0DA3E655;
+    background-color: #0DA3E6cc;
     color: antiquewhite;
 }
 .drop:focus{
@@ -186,7 +186,7 @@
 .sld .ss{
     height: 100vmin;
     
-    background-color: #0DA3E6;
+    background-image: linear-gradient(to bottom, #0DA3E6, #E61931);
 }
 
 .carousel-inner img {
