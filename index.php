@@ -334,7 +334,7 @@ if (isset($_SESSION["userinfo"])) {
                         <div class="card-body">
                             <h5 class="card-title">Zero to hero English course</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Rs 500</h6>
-                            <a href="/payment/public/checkout.php?pid=c1">Buy</a>
+                            <a href="./payment/public/checkout.php?pid=c1">Buy</a>
                         </div>
                     </div>
                 </div>
@@ -344,7 +344,7 @@ if (isset($_SESSION["userinfo"])) {
                         <div class="card-body">
                             <h5 class="card-title">Ultimate English course</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Rs 800</h6>
-                            <a href="/payment/public/checkout.php?pid=c2">Buy</a>
+                            <a href="./payment/public/checkout.php?pid=c2">Buy</a>
                         </div>
                     </div>
                 </div>
