@@ -11,7 +11,7 @@ $stripe = new \Stripe\StripeClient(
 
 header('Content-Type: application/json');
 
-$YOUR_DOMAIN = 'http://mrinmoy1032.rf.gd/payment/public';
+$YOUR_DOMAIN = 'http://127.0.0.1/Pjct/Course-kart/payment/public';
 
 $price = ["c1"=>"price_1JVsgtSJe8u1Wmfk8g1x2wFX",
           "c2"=>"price_1JVsiASJe8u1Wmfkh3j3TDSf"
